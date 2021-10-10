@@ -5,7 +5,7 @@ A simple todo app using react , mongodb, express and node.js
 ## Setting up server
 1. Make a new directory named react-todo-backend
 2. cd react-todo-backend
-3. npm init
+3. npm init 
 4. npm i express nodemon dotenv
 5. Create index.js inside react-todo-app
 6. In Index.js
