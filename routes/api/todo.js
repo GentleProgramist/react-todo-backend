@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Todo = require('../models/Todo');
 
-
+ 
 router.get('/todos', (req,res) => {
     Todo.find({},'action')
         .then(data => res.json(data));
