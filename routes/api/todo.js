@@ -8,7 +8,7 @@ router.get('/todos', (req,res) => {
         .then(data => res.json(data));
         
 });
-
+ 
 router.post('/todos', (req,res) => {
     if(req.body.action){
         Todo.create(req.body)
