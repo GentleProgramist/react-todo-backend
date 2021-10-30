@@ -25,7 +25,7 @@ export default function(state = initialState, action) {
             return {...state,actions: state.actions.filter(act => act._id !== action.payload._id)}
 
         default:
-        return state;
+        return state;  
         
     }
 }
