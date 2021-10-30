@@ -10,7 +10,7 @@ export default function(state = initialState, action) {
         case FETCH_ACTIONS_SUCCESS:
             console.log('REduceer',{...state,actions: action.payload})
             return {...state,actions: action.payload}
-        
+         
         case FETCH_ACTIONS_FAILURE:
             return state;    
 
