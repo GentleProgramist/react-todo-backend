@@ -3,7 +3,7 @@ import {FETCH_ACTIONS_SUCCESS, FETCH_ACTIONS_FAILURE,ADD_ACTION,EDIT_ACTION,DELE
 const initialState = {
     actions: []
 }
-
+ 
 export default function(state = initialState, action) {
     switch(action.type){
 
