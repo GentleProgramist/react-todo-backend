@@ -8,7 +8,7 @@ const TodoSchema = new Schema({
         type : String,
         required : ['true','The todo text field is required']
     }
-});
+}); 
 
 const Todo = mongoose.model('todo',TodoSchema);
 
